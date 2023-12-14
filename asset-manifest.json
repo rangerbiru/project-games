@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/project-games/static/css/main.397e8780.css",
+    "main.js": "/project-games/static/js/main.d855ea43.js",
+    "static/media/bg1.jpg": "/project-games/static/media/bg1.15355f26892038f217a9.jpg",
+    "static/media/bg2.jpg": "/project-games/static/media/bg2.cce4ab62abde945b604b.jpg",
+    "static/media/bg3.jpg": "/project-games/static/media/bg3.bb5d6a763c2aa963503b.jpg",
+    "static/media/logo.png": "/project-games/static/media/logo.8873b5c242a59f6a6cad.png",
+    "index.html": "/project-games/index.html",
+    "main.397e8780.css.map": "/project-games/static/css/main.397e8780.css.map",
+    "main.d855ea43.js.map": "/project-games/static/js/main.d855ea43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.397e8780.css",
+    "static/js/main.d855ea43.js"
+  ]
+}
