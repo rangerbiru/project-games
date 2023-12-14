@@ -1,0 +1,71 @@
+header, .card-games {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+/* 
+.bg-footer {
+    background-color: #24262b;
+} */
+
+/* Footer */
+.col {
+    @apply w-1/3 px-8
+}
+
+.box-shaodw {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.icon-sosmed {
+    @apply flex gap-5 ml-auto
+}
+
+.icon a i {
+    @apply text-white text-lg w-10 h-10 rounded-full bg-blue-700 flex justify-center items-center transition duration-300 hover:bg-blue-900
+}
+
+.title-footer {
+    @apply mb-3
+}
+
+.title-footer::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #31A0DF;
+    height: 2px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.contact p {
+    @apply flex items-center py-1 text-white
+}
+
+.contact p i {
+    margin-right: 2px;
+    width: 25px;
+}
+
+/* Button Pagination */
+/* .pagination-button {
+  font-size: 1.1rem;
+  background-color: red;
+  border: none;
+  margin: 0.25rem 0.25rem;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: .2rem;
+} 
+
+.pagination-number:hover,
+.pagination-button:not(.disabled):hover {
+  background: #fff;
+}
+.pagination-number.active {
+  color: #fff;
+  background: #0085b6;
+} */

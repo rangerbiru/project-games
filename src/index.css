@@ -1,13 +1,181 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+
+    font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #141e30, #243b55);
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#home {
+  /* background: url('./Images/bg2.jpg'); */
+  /* background: linear-gradient(to right, #141e30, #243b55); */
+  /* background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; */
+  min-height: 100vh;
+}
+
+/* .box-home {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3)
+  ),url('./Images/bg2.jpg');
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+} */
+
+.position-center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rounded-cus {
+  border-radius: 32px;
+}
+
+.btn-selengkapnya {
+  @apply py-3 px-8 bg-white text-black rounded-md font-medium text-sm hover:text-blue-600 transition duration-300
+}
+
+
+/* Swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #bdbdbd !important;
+}
+
+/* Section Category */
+.bg-cat1 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://wallpaperaccess.com/full/3482757.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: .3s;
+}
+
+.bg-cat2 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://wallpaperaccess.com/full/1616901.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat3 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://w0.peakpx.com/wallpaper/1008/773/HD-wallpaper-crusader-king-iii-artwork-strategy-games-paradox-interactive-games.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat4 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://www.teahub.io/photos/full/294-2947964_best-fighting-games-2019.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat5 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://wallpapercave.com/wp/wp2621389.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat6 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://wallpapercave.com/wp/wp6436399.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat7 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://www.pixel4k.com/wp-content/uploads/2018/03/World%20Of%20Warcraft%20Horde7739610535.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat8 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),url('https://wallpaperaccess.com/full/1108509.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: .3s;
+  background-repeat: no-repeat;
+}
+
+.bg-cat1:hover, .bg-cat2:hover, .bg-cat3:hover, .bg-cat4:hover, .bg-cat5:hover, .bg-cat6:hover, .bg-cat7:hover, .bg-cat8:hover {
+  transform: scale(1.08);
+}
+
+/* .bg-cat1:hover, .bg-cat2:hover, .bg-cat3:hover, .bg-cat4:hover {
+  transform: scale(1.1);
+  transition: .3s;
+} */
